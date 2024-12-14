@@ -74,17 +74,66 @@ ul li {
 }
 
 /* Dark Mode */
-body.dark {
+/* body.dark {
     background: #222;
     color: #fff;
 }
 
 body.dark header {
     background: #444;
-}
+} */
 footer{
     text-align: center;
     background-color: #333;
     color:white;
     padding: 10px 20px;
 }
+
+.theme-switcher {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(to right,#343434, #4c4b4b);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.resume {
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(236, 232, 232, 0.1);
+}
+body.dark-theme .header p {
+    margin: 5px 0 0;
+    color: #ddd;
+}
+
+body.dark-theme .header a {
+    margin: 5px 0 0;
+    color: #ddd;
+}
+
+body.dark-theme {
+    background-color: #222;
+    color: #ddd;
+}
+
+body.dark-theme .resume {
+    background: #333;
+    color: #ddd;
+}
+
+body.dark-theme .left {
+    background: linear-gradient(to right,#343434, #4c4b4b);
+}
+
+body.dark-theme .right {
+    background: linear-gradient(to right,#343434, #4c4b4b);
+}
+
+body.dark-theme .progress {
+    background: #00ff99;
+}
+
+
